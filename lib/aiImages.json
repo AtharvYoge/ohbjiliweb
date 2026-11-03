@@ -1,9 +1,13 @@
 [
  "chai-table",
  "chai-table-mobile",
+ "mm-affogato",
+ "mm-avocado-toast",
  "mm-grilled-cheese",
+ "mm-ice-cream",
  "mm-nachos",
  "mm-pizza",
+ "mm-popcorn",
  "mm-ramen",
  "mm-tacos"
 ]
