@@ -1,0 +1,717 @@
+{
+ "source": "https://ohbijli.myshopify.com/products.json (cross-checked with Shopify Admin via read-only connector)",
+ "snapshotAt": "2026-11-03",
+ "products": [
+  {
+   "handle": "salt-banana-chips-65g-x-3-packs",
+   "title": "Salt Banana Chips | 65g x 3 Packs",
+   "vendor": "VS Mani & Co.",
+   "tags": [
+    "Chips",
+    "Oh Bijli Market",
+    "Snacks"
+   ],
+   "category": "Snacks",
+   "variantId": 54231432200475,
+   "price": "4.99",
+   "available": true,
+   "descriptionHtml": "<p>Every summer vacation, we would bundle up in an Ambassador and drive to our ancestral temple in Palakkad, along with our relatives. These trips are etched in our memories for many reasons, most of all the yummy Kerala banana chips we would snap up at our favourite stores. Adults and kids alike, we would zip through these packets of chips with gusto.</p>",
+   "images": [
+    {
+     "src": "/p/salt-banana-chips-65g-x-3-packs-0.webp",
+     "alt": "Salt Banana Chips | 65g x 3 Packs",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/20.jpg?v=1791954779"
+    }
+   ],
+   "cutout": "/cut/salt-banana-chips-65g-x-3-packs.webp",
+   "color": "#FF2E8A",
+   "createdAt": "2026-10-14T10:42:55+05:30"
+  },
+  {
+   "handle": "guntur-crisp",
+   "title": "Guntur Crisp",
+   "vendor": "Naagin Sauce",
+   "tags": [
+    "Chilli Oil",
+    "Oh Bijli Market",
+    "Sauces"
+   ],
+   "category": "Pantry",
+   "variantId": 54231432298779,
+   "price": "7.99",
+   "available": true,
+   "descriptionHtml": "<p>From the Food Labs at Naagin, we bring you an all new Instant Taste Upgrade - this time in the form of a Crispy Chilli Oil. You asked for something not too spicy and healthy for everyone and we're here to tell you, we got you covered (pun intended)!</p><p>Naagin Crispy Chilli Oil brings out the best of almost any pairing you can think of. Built on a base of global favourite Guntur chillies, our newest cooking base, kitchen and dining table must-have is a special blend of crispy-crunchy, slow-roasted flavours and a solid dose of umami you can savour. While most chilli oils are just infusions, we bring you a crispy classic which is 100% Vegan, no added sugars and no transfat.</p><p>Ethically sourced and locally made using the day's freshest vegetables, our Crispy Chilli Oil has original flavours born from our obsessive passion to create unique products that our customers will love.</p><p>Heat Level - Mildly Spicy (2/10)</p><p>SHU Rating - 1,000-2,000</p>",
+   "images": [
+    {
+     "src": "/p/guntur-crisp-0.webp",
+     "alt": "Guntur Crisp",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/1_7eafe46e-9453-435b-9a8f-632414cf5823.png?v=1791954785"
+    },
+    {
+     "src": "/p/guntur-crisp-1.webp",
+     "alt": "Guntur Crisp",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/2_0463befe-4d12-425d-bd6f-34723785567f.png?v=1791954788"
+    },
+    {
+     "src": "/p/guntur-crisp-2.webp",
+     "alt": "Guntur Crisp",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/3_a4af2d82-8dac-449d-bebc-f87e16c5f385.png?v=1791954787"
+    },
+    {
+     "src": "/p/guntur-crisp-3.webp",
+     "alt": "Guntur Crisp",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/4_4481cb3f-7c8b-4e05-9800-2c36289879f4.png?v=1791954786"
+    },
+    {
+     "src": "/p/guntur-crisp-4.webp",
+     "alt": "Guntur Crisp",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/5_2a47a642-7fc2-4a3f-ab6b-b36742d9c7d9.png?v=1791954787"
+    },
+    {
+     "src": "/p/guntur-crisp-5.webp",
+     "alt": "Guntur Crisp",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/6_df300b3b-7d18-4edd-944a-333dfa689dd4.png?v=1791954787"
+    }
+   ],
+   "cutout": "/cut/guntur-crisp.webp",
+   "color": "#FFC21A",
+   "createdAt": "2026-10-14T10:43:03+05:30"
+  },
+  {
+   "handle": "choco-butterscotch-barks-200g",
+   "title": "Choco Butterscotch Barks (200g)",
+   "vendor": "Bombay Sweet Shop",
+   "tags": [
+    "Chocolate",
+    "Oh Bijli Market",
+    "Sweets"
+   ],
+   "category": "Drinks & treats",
+   "variantId": 54231432266011,
+   "price": "9.99",
+   "available": true,
+   "descriptionHtml": "<p>Inspiration: Karak Sohan Halwa \u2014 a Lucknowi confection, paper-thin in one shop in Lucknow, brought back by the Chief Mithaiwala from a Lucknow trip. The brief was odd on purpose: make an inside-out chikki. The first attempt sandwiched sohan halwa between two coats of chocolate \u2014 the jaggery caramel of sohan halwa already echoes a chikki. Sea salt came in at tasting. A day-one BSS product. Not a recreation. A structural translation of its snap, pull, and caramel density into a bark.</p>",
+   "images": [
+    {
+     "src": "/p/choco-butterscotch-barks-200g-0.webp",
+     "alt": "Choco Butterscotch Barks (200g)",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/BSS_2026_DIWALI_BARKS200-HERO-1.1.jpg?v=1791954785"
+    },
+    {
+     "src": "/p/choco-butterscotch-barks-200g-1.webp",
+     "alt": "Choco Butterscotch Barks (200g)",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/DIW_Barks200gA.jpg?v=1791954785"
+    },
+    {
+     "src": "/p/choco-butterscotch-barks-200g-2.webp",
+     "alt": "Choco Butterscotch Barks (200g)",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/BARKS-Anatomy_e1b193d6-db3e-4725-9103-bddee2f1c42e.jpg?v=1791954785"
+    },
+    {
+     "src": "/p/choco-butterscotch-barks-200g-3.webp",
+     "alt": "Choco Butterscotch Barks (200g)",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/BSS_2026_DIWALI_BARKS200-PACKOF3-HERO-1.1.jpg?v=1791954785"
+    },
+    {
+     "src": "/p/choco-butterscotch-barks-200g-4.webp",
+     "alt": "Choco Butterscotch Barks (200g)",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/Chocobutterscotchbarkspackaging-30_1.jpg?v=1791954786"
+    },
+    {
+     "src": "/p/choco-butterscotch-barks-200g-5.webp",
+     "alt": "Choco Butterscotch Barks (200g)",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/Diwali_ChocoButterscotchBarks_200gm_BOP.jpg?v=1791954785"
+    }
+   ],
+   "cutout": "/cut/choco-butterscotch-barks-200g.webp",
+   "color": "#E3261B",
+   "createdAt": "2026-10-14T10:43:03+05:30"
+  },
+  {
+   "handle": "the-original",
+   "title": "The Original",
+   "vendor": "Naagin Sauce",
+   "tags": [
+    "Hot Sauce",
+    "Oh Bijli Market",
+    "Sauces"
+   ],
+   "category": "Pantry",
+   "variantId": 54231432233243,
+   "price": "6.99",
+   "available": true,
+   "descriptionHtml": "<p>'The Original' Indian Hot Sauce brings together the best of spicy flavours from Western India, featuring the Sankeshwari Chilli from Kolhapur District, Maharashtra.</p><p>Legend has it, this was inspired by vada pav masala, but the combination of ingredients gives you a flavour profile that you cannot find anywhere else. Our sauce is a curated blend of fresh vegetables, chillies and our secret ingredient. You may have tried basic hot sauces in india but this, is The Original Indian Hot Sauce.</p><p>Sankeshwari may be the humble workhorse of the chilli pepper world, but not anymore. It's now the hero chilli of the sauce we lovingly dub 'The OG'.</p><p>Heat Level - Medium Spicy (4/10)</p><p>SHU Rating - 2,500-5,000</p>",
+   "images": [
+    {
+     "src": "/p/the-original-0.webp",
+     "alt": "The Original",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/1_11c5fa40-14f3-4020-a654-6ece06709482.png?v=1791954785"
+    },
+    {
+     "src": "/p/the-original-1.webp",
+     "alt": "The Original",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/2_907733ad-2a72-4d40-a741-89122aff48f7.png?v=1791954788"
+    },
+    {
+     "src": "/p/the-original-2.webp",
+     "alt": "The Original",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/4_fec179e2-5369-4589-a46e-c887eb9c9712.png?v=1791954788"
+    },
+    {
+     "src": "/p/the-original-3.webp",
+     "alt": "The Original",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/3_d6eee4c3-95f4-4cf5-9cfd-f8f94de88209.png?v=1791954787"
+    },
+    {
+     "src": "/p/the-original-4.webp",
+     "alt": "The Original",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/5_71d4fb30-e6f2-4f63-af7b-c0a88bd6b99b.png?v=1791954786"
+    },
+    {
+     "src": "/p/the-original-5.webp",
+     "alt": "The Original",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/6_e2c74676-4f6f-4f8d-9a78-c52095bdf933.png?v=1791954785"
+    }
+   ],
+   "cutout": "/cut/the-original.webp",
+   "color": "#2DB84B",
+   "createdAt": "2026-10-14T10:43:02+05:30"
+  },
+  {
+   "handle": "indie-bites-54-5-dark-chocolate-kaju-katli",
+   "title": "Indie Bites - 54.5% Dark Chocolate Kaju Katli",
+   "vendor": "Bombay Sweet Shop",
+   "tags": [
+    "Chocolate",
+    "Mithai",
+    "Oh Bijli Market",
+    "Sweets"
+   ],
+   "category": "Drinks & treats",
+   "variantId": 54231432429851,
+   "price": "8.99",
+   "available": true,
+   "descriptionHtml": "<p>Where chocolate meets mithai to make the ultimate indulgent treat! Kaju Katli layered with 55% dark chocolate ganache and a generous dusting of Dutch cocoa powder.</p><p>Net Weight - Approx. 135g</p>",
+   "images": [
+    {
+     "src": "/p/indie-bites-54-5-dark-chocolate-kaju-katli-0.webp",
+     "alt": "Indie Bites - 54.5% Dark Chocolate Kaju Katli",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/IndieBites-HeroDiwali2026.jpg?v=1791954787"
+    },
+    {
+     "src": "/p/indie-bites-54-5-dark-chocolate-kaju-katli-1.webp",
+     "alt": "Indie Bites - 54.5% Dark Chocolate Kaju Katli",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/DIW_IKBA_bcb0e2cc-61bb-4d05-b026-b887331bf324.jpg?v=1791954785"
+    },
+    {
+     "src": "/p/indie-bites-54-5-dark-chocolate-kaju-katli-2.webp",
+     "alt": "Indie Bites - 54.5% Dark Chocolate Kaju Katli",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/IKB-Anatomy_2231ebe4-7b93-470d-b008-6642eda7fca1.jpg?v=1791954785"
+    },
+    {
+     "src": "/p/indie-bites-54-5-dark-chocolate-kaju-katli-3.webp",
+     "alt": "Indie Bites - 54.5% Dark Chocolate Kaju Katli",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/Indie_Bites_1_Bombay_Sweet_Shop_1.jpg?v=1791954785"
+    },
+    {
+     "src": "/p/indie-bites-54-5-dark-chocolate-kaju-katli-4.webp",
+     "alt": "Indie Bites - 54.5% Dark Chocolate Kaju Katli",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/RAKHI_BOPCREATIVESFORWEB_INDIEBITES.jpg?v=1791954785"
+    }
+   ],
+   "cutout": "/cut/indie-bites-54-5-dark-chocolate-kaju-katli.webp",
+   "color": "#1F4BFF",
+   "createdAt": "2026-10-14T10:43:03+05:30"
+  },
+  {
+   "handle": "easy-filter-coffee-80-20-20ml-x-35-packs-single-serve-sachet",
+   "title": "Easy Filter Coffee - 80:20 | 20ML x 35 Packs (Single Serve Sachet)",
+   "vendor": "VS Mani & Co.",
+   "tags": [
+    "Coffee",
+    "Oh Bijli Market"
+   ],
+   "category": "Drinks & treats",
+   "variantId": 54231432397083,
+   "price": "7.99",
+   "available": true,
+   "descriptionHtml": "<p>It\u2019s 6 am on a balmy day. Fresh decoction goes drip-drip in Paati\u2019s brass filter and the aroma of coffee wafts through our home. Paati gives VS Thatha his first frothy cup and prepares a tall flask for the entire household. Her coffee-chicory blend is perfect - strong and flavorful, with no bitter aftertaste. Our mornings are punctuated by frequent doses from this beloved coffee flask.</p><p>Now, we bring you our homebrew in a ready-to-consume format. Simply mix with hot milk and sugar, and savour the rich flavours of the coffee we grew up relishing!</p>",
+   "images": [
+    {
+     "src": "/p/easy-filter-coffee-80-20-20ml-x-35-packs-single-serve-sachet-0.webp",
+     "alt": "Easy Filter Coffee - 80:20 | 20ML x 35 Packs (Single Serve Sachet)",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/ALL_PRODUCTS.jpg?v=1791954785"
+    }
+   ],
+   "cutout": "/cut/easy-filter-coffee-80-20-20ml-x-35-packs-single-serve-sachet.webp",
+   "color": "#FF7A1A",
+   "createdAt": "2026-10-14T10:43:03+05:30"
+  },
+  {
+   "handle": "smoky-bhoot",
+   "title": "Smoky Bhoot",
+   "vendor": "Naagin Sauce",
+   "tags": [
+    "Hot Sauce",
+    "Oh Bijli Market",
+    "Sauces"
+   ],
+   "category": "Pantry",
+   "variantId": 54231432364315,
+   "price": "8.99",
+   "available": true,
+   "descriptionHtml": "<p>The Bhut Jolokia Sauce is not for the weak of heart (or stomach) \u2013 after all its unique and fiery flavour comes from the legendary Bhut Jolokia chilli from North-East India.</p><p>You might have seen how YouTube is littered with videos of 'bros' pumped up enough to eat a whole Bhut Jolokia \u2013 only to crumble to the floor, pounding down milk! Do you think you can tame the Smoky Bhoot? Think again!</p><p>Rich in texture, this hot sauce takes you on a sensory journey right from the first taste through to a full 10 seconds later when the heat finally breaks. Possibly the hottest sauce you'll find anywhere in India, we've toned it down so you can actually enjoy how special the chilli is, all mixed in with a flavour profile that will keep you coming back for more.</p><p>Heat Level - X-tra Spicy (8/10)</p><p>SHU Rating -12,000-18,000</p>",
+   "images": [
+    {
+     "src": "/p/smoky-bhoot-0.webp",
+     "alt": "Smoky Bhoot",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/1_1_9a0a35c5-0fa3-4f0f-aaf4-039415c80ddc.png?v=1791954786"
+    },
+    {
+     "src": "/p/smoky-bhoot-1.webp",
+     "alt": "Smoky Bhoot",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/2_1_bf56df3d-23e4-438b-a657-18d9024f7599.png?v=1791954789"
+    },
+    {
+     "src": "/p/smoky-bhoot-2.webp",
+     "alt": "Smoky Bhoot",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/3_1_04ab60a8-7722-49a8-9525-ed5954bc36e7.png?v=1791954787"
+    },
+    {
+     "src": "/p/smoky-bhoot-3.webp",
+     "alt": "Smoky Bhoot",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/4_1_faa9f40d-264e-459d-81bd-8ee75322ecbd.png?v=1791954787"
+    },
+    {
+     "src": "/p/smoky-bhoot-4.webp",
+     "alt": "Smoky Bhoot",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/5_2_346dc370-f5b1-4387-8b24-cfcb851358de.png?v=1791954786"
+    },
+    {
+     "src": "/p/smoky-bhoot-5.webp",
+     "alt": "Smoky Bhoot",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/6_1_74b26112-ef23-4723-89e9-924c0e34a9f2.png?v=1791954785"
+    }
+   ],
+   "cutout": "/cut/smoky-bhoot.webp",
+   "color": "#6E0F2B",
+   "createdAt": "2026-10-14T10:43:03+05:30"
+  },
+  {
+   "handle": "peri-peri-potato-salli-90g",
+   "title": "Peri Peri Potato Salli (90g)",
+   "vendor": "Bombay Sweet Shop",
+   "tags": [
+    "Namkeen",
+    "Oh Bijli Market",
+    "Snacks"
+   ],
+   "category": "Snacks",
+   "variantId": 54231432331547,
+   "price": "5.99",
+   "available": true,
+   "descriptionHtml": "<p>Our golden-fried potato salli tossed in a peri peri spice mix along with almonds, cashews and raisins. Each pack contains 90gms of Peri Peri Potato Salli.</p><p>Net Weight - 90g</p>",
+   "images": [
+    {
+     "src": "/p/peri-peri-potato-salli-90g-0.webp",
+     "alt": "Peri Peri Potato Salli (90g)",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/PERIPERIPOTATOSALLI-HERO-1.1DIWALI2026.jpg?v=1791954785"
+    },
+    {
+     "src": "/p/peri-peri-potato-salli-90g-1.webp",
+     "alt": "Peri Peri Potato Salli (90g)",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/DIWALIA_ANATOMY_PeriPeriPotatoSalli_A.jpg?v=1791954785"
+    },
+    {
+     "src": "/p/peri-peri-potato-salli-90g-2.webp",
+     "alt": "Peri Peri Potato Salli (90g)",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/33_64486c8b-2558-498c-91c4-b33f48170e4a.jpg?v=1791954785"
+    },
+    {
+     "src": "/p/peri-peri-potato-salli-90g-3.webp",
+     "alt": "Peri Peri Potato Salli (90g)",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/RAKHI_BOP_CREATIVES_FOR_WEB_PERI_PERI_POTATO_SALLI.jpg?v=1791954786"
+    }
+   ],
+   "cutout": "/cut/peri-peri-potato-salli-90g.webp",
+   "color": "#8FD3FF",
+   "createdAt": "2026-10-14T10:43:03+05:30"
+  },
+  {
+   "handle": "ghee-mysore-pak-soft",
+   "title": "Ghee Mysore Pak (Soft)",
+   "vendor": "Sweet Karam Coffee",
+   "tags": [
+    "Mithai",
+    "Oh Bijli Market",
+    "Sweets"
+   ],
+   "category": "Drinks & treats",
+   "variantId": 54231432528155,
+   "price": "9.99",
+   "available": true,
+   "descriptionHtml": "<p>Our Ghee Mysore Pak is a delightful blend of premium ingredients and artisanal expertise. Made with gram flour, sugar and generous dollops of ghee, these traditional sweets are the star of all your celebrations.</p><p>Unlike commercially produced sweets that rely on unhealthy substitutes, Sweet Karam Coffee uses only pure ghee. We bring the best of South Indian recipes and ingredients to prepare this ghee mysore pak.</p>",
+   "images": [
+    {
+     "src": "/p/ghee-mysore-pak-soft-0.webp",
+     "alt": "Ghee Mysore Pak (Soft)",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/WhatsApp_Image_2026-10-13_at_11.22.31.jpg?v=1791954786"
+    },
+    {
+     "src": "/p/ghee-mysore-pak-soft-1.webp",
+     "alt": "Ghee Mysore Pak (Soft)",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/WhatsApp_Image_2026-06-25_at_1.42.38_AM.jpg?v=1791954786"
+    },
+    {
+     "src": "/p/ghee-mysore-pak-soft-2.webp",
+     "alt": "Ghee Mysore Pak (Soft)",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/WhatsApp_Image_2026-03-03_at_12.59.54_PM_1.jpg?v=1791954786"
+    },
+    {
+     "src": "/p/ghee-mysore-pak-soft-3.webp",
+     "alt": "Ghee Mysore Pak (Soft)",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/mysore_pak.jpg?v=1791954785"
+    },
+    {
+     "src": "/p/ghee-mysore-pak-soft-4.webp",
+     "alt": "Ghee Mysore Pak (Soft)",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/WhatsApp_Image_2026-03-03_at_12.59.54_PM.jpg?v=1791954786"
+    },
+    {
+     "src": "/p/ghee-mysore-pak-soft-5.webp",
+     "alt": "Ghee Mysore Pak (Soft)",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/Nutritional_Tabel_22.png?v=1791954786"
+    }
+   ],
+   "cutout": "/cut/ghee-mysore-pak-soft.webp",
+   "color": "#FF2E8A",
+   "createdAt": "2026-10-14T10:43:03+05:30"
+  },
+  {
+   "handle": "kai-murukku-chakli",
+   "title": "Kai Murukku (Chakli)",
+   "vendor": "Sweet Karam Coffee",
+   "tags": [
+    "Oh Bijli Market",
+    "Snacks",
+    "South Indian Snacks"
+   ],
+   "category": "Snacks",
+   "variantId": 54231432495387,
+   "price": "6.99",
+   "available": true,
+   "descriptionHtml": "<p>Kai Murukku, literally translating to \"hand-rolled,\" embodies the essence of traditional South Indian cooking. The dough for this South Indian chakli is kneaded for a long time, once stiff enough, it is piped into spiral patterns.</p><p>Rice flour provides for a nice texture, while urad dal flour adds a touch of earthiness. Cumin seeds and butter have a warm depth of flavour, and a sprinkle of salt ties everything together, creating irresistible, savoury notes.</p><p>Sweet Karam Coffee's Kai Murukku is more than just a snack; it's a journey into the heart of South Indian culinary heritage. Order these flavourful snacks from our website now!</p>",
+   "images": [
+    {
+     "src": "/p/kai-murukku-chakli-0.webp",
+     "alt": "Kai Murukku (Chakli)",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/WhatsApp_Image_2026-08-04_at_6.48.18_PM_4.jpg?v=1791954786"
+    },
+    {
+     "src": "/p/kai-murukku-chakli-1.webp",
+     "alt": "Kai Murukku (Chakli)",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/WhatsApp_Image_2026-07-10_at_6.27.03_PM_7.jpg?v=1791954785"
+    },
+    {
+     "src": "/p/kai-murukku-chakli-2.webp",
+     "alt": "Kai Murukku (Chakli)",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/WhatsApp_Image_2026-05-19_at_6.46.04_PM.jpg?v=1791954785"
+    },
+    {
+     "src": "/p/kai-murukku-chakli-3.webp",
+     "alt": "Kai Murukku (Chakli)",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/WhatsApp_Image_2026-08-06_at_4.56.20_PM_7.jpg?v=1791954785"
+    },
+    {
+     "src": "/p/kai-murukku-chakli-4.webp",
+     "alt": "Kai Murukku (Chakli)",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/WhatsApp_Image_2026-05-19_at_6.21.08_PM_2.jpg?v=1791954786"
+    },
+    {
+     "src": "/p/kai-murukku-chakli-5.webp",
+     "alt": "Kai Murukku (Chakli)",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/WhatsApp_Image_2026-05-19_at_6.21.08_PM_1.jpg?v=1791954785"
+    }
+   ],
+   "cutout": "/cut/kai-murukku-chakli.webp",
+   "color": "#FFC21A",
+   "createdAt": "2026-10-14T10:43:03+05:30"
+  },
+  {
+   "handle": "kerala-banana-chips-made-with-coconut-oil",
+   "title": "Kerala Banana Chips (Made with Coconut Oil)",
+   "vendor": "Sweet Karam Coffee",
+   "tags": [
+    "Chips",
+    "Oh Bijli Market",
+    "Snacks"
+   ],
+   "category": "Snacks",
+   "variantId": 54231432462619,
+   "price": "5.99",
+   "available": true,
+   "descriptionHtml": "<p>The classic flavours of Kerala in the essence of pure coconut oil are here to make tea time even more special. Have surprise guests and no preparation? Our Kerala banana chips make for perfect serving of snacks, no matter your preference.</p><p>Include these crunchy bites as a side dish to your meal, or share it over tea time banana chips are a very versatile item. Sweet Karam Coffee prioritises quality and ingredients. That's why our Kerala Chips have zero trans fat, zero added sugar, and also gluten-free!</p><p>An indispensable crunchy savoury in the Onam Sadya, native to Kerala and Nagercoil cuisine. Also, serve it with hot tea for a complete evening snack.</p>",
+   "images": [
+    {
+     "src": "/p/kerala-banana-chips-made-with-coconut-oil-0.webp",
+     "alt": "Kerala Banana Chips (Made with Coconut Oil)",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/WhatsApp_Image_2026-08-04_at_6.20.44_PM_10.jpg?v=1791954785"
+    },
+    {
+     "src": "/p/kerala-banana-chips-made-with-coconut-oil-1.webp",
+     "alt": "Kerala Banana Chips (Made with Coconut Oil)",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/WhatsApp_Image_2026-06-20_at_5.39.58_PM.jpg?v=1791954785"
+    },
+    {
+     "src": "/p/kerala-banana-chips-made-with-coconut-oil-2.webp",
+     "alt": "Kerala Banana Chips (Made with Coconut Oil)",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/nendran_chips_3f0d537c-d903-47a8-86d4-5ccb391cd6f2.jpg?v=1791954786"
+    },
+    {
+     "src": "/p/kerala-banana-chips-made-with-coconut-oil-3.webp",
+     "alt": "Kerala Banana Chips (Made with Coconut Oil)",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/WhatsApp_Image_2025-08-04_at_15.25.05_1219031a.jpg?v=1791954785"
+    },
+    {
+     "src": "/p/kerala-banana-chips-made-with-coconut-oil-4.webp",
+     "alt": "Kerala Banana Chips (Made with Coconut Oil)",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/WhatsApp_Image_2025-08-04_at_15.25.05_807359e5.jpg?v=1791954785"
+    },
+    {
+     "src": "/p/kerala-banana-chips-made-with-coconut-oil-5.webp",
+     "alt": "Kerala Banana Chips (Made with Coconut Oil)",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/Nutritional_Tabel_7.png?v=1791954786"
+    }
+   ],
+   "cutout": "/cut/kerala-banana-chips-made-with-coconut-oil.webp",
+   "color": "#E3261B",
+   "createdAt": "2026-10-14T10:43:03+05:30"
+  },
+  {
+   "handle": "andhra-spicy-murukku-classic-crunch",
+   "title": "Andhra Spicy Murukku (Classic Crunch)",
+   "vendor": "Sweet Karam Coffee",
+   "tags": [
+    "Andhra",
+    "murukku",
+    "Oh Bijli Market",
+    "snacks",
+    "South Indian",
+    "spicy"
+   ],
+   "category": "Snacks",
+   "variantId": 54227355664667,
+   "price": "6.99",
+   "available": true,
+   "descriptionHtml": "<p>A classic South Indian snack, crafted using traditional methods from the finest quality rice flour and urad dal flour with a sprinkle of red chilli powder, garlic, sesame, cumin, and asafoetida.</p>\n<p>Andhra Murukku, also known as janthikalu or murukulu, comes from a place where spice is never optional - bold, crunchy, and full of flavour, just the way Andhra likes it.</p>\n<p>Made without maida and palm oil, and free from preservatives and additives.</p>\n<p>Ingredients - Rice flour, urad dal flour, red chilli powder, garlic, sesame, cumin, asafoetida.</p>\n<p>Net Weight - 3 x 95gms</p>",
+   "images": [
+    {
+     "src": "/p/andhra-spicy-murukku-classic-crunch-0.webp",
+     "alt": "Andhra Spicy Murukku (Classic Crunch)",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/WhatsApp_Image_2026-05-31_at_1.32.02_PM_3.jpg?v=1791911460"
+    },
+    {
+     "src": "/p/andhra-spicy-murukku-classic-crunch-1.webp",
+     "alt": "Andhra Spicy Murukku (Classic Crunch)",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/WhatsApp_Image_2026-07-10_at_6.27.03_PM_11.jpg?v=1791911460"
+    },
+    {
+     "src": "/p/andhra-spicy-murukku-classic-crunch-2.webp",
+     "alt": "Andhra Spicy Murukku (Classic Crunch)",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/WhatsApp_Image_2026-08-06_at_4.56.20_PM_16.jpg?v=1791911461"
+    },
+    {
+     "src": "/p/andhra-spicy-murukku-classic-crunch-3.webp",
+     "alt": "Andhra Spicy Murukku (Classic Crunch)",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/WhatsApp_Image_2026-05-19_at_5.33.37_PM_3.jpg?v=1791911460"
+    },
+    {
+     "src": "/p/andhra-spicy-murukku-classic-crunch-4.webp",
+     "alt": "Andhra Spicy Murukku (Classic Crunch)",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/WhatsApp_Image_2026-05-19_at_5.33.37_PM_1.jpg?v=1791911460"
+    },
+    {
+     "src": "/p/andhra-spicy-murukku-classic-crunch-5.webp",
+     "alt": "Andhra Spicy Murukku (Classic Crunch)",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/WhatsApp_Image_2026-05-19_at_5.33.37_PM_2.jpg?v=1791911460"
+    }
+   ],
+   "cutout": "/cut/andhra-spicy-murukku-classic-crunch.webp",
+   "color": "#2DB84B",
+   "createdAt": "2026-10-13T22:40:58+05:30"
+  },
+  {
+   "handle": "gunpowder-idli-molaga-podi-150g-x-2-packs",
+   "title": "Gunpowder (Idli Molaga Podi) | 150g x 2 Packs",
+   "vendor": "VS Mani & Co.",
+   "tags": [
+    "Indian pantry",
+    "Oh Bijli Market",
+    "podi",
+    "South Indian",
+    "spice mix"
+   ],
+   "category": "Pantry",
+   "variantId": 54227355271451,
+   "price": "7.99",
+   "available": true,
+   "descriptionHtml": "<p>The soft hissing of the idli cooker signaled breakfast time at the VS household. Soon, the steaming idlis would occupy their place next to a dabba of molaga podi - Paati\u2019s delicious blend of sesame seeds, daal, and other spices from our kitchen.</p>\n<p>Make a mound of the podi, clear out the centre for gingelly oil, and mix the two carefully. The fluffy idlis and crunchy podi make for a heavenly combination - and it's just as good with crisp dosas.</p>\n<p>Net Weight - 150gms x 2 packs</p>\n<p>Country of origin: India</p>",
+   "images": [
+    {
+     "src": "/p/gunpowder-idli-molaga-podi-150g-x-2-packs-0.webp",
+     "alt": "Gunpowder (Idli Molaga Podi) | 150g x 2 Packs",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/21.jpg?v=1791911456"
+    }
+   ],
+   "cutout": "/cut/gunpowder-idli-molaga-podi-150g-x-2-packs.webp",
+   "color": "#1F4BFF",
+   "createdAt": "2026-10-13T22:40:54+05:30"
+  },
+  {
+   "handle": "chocolate-butter-cookies",
+   "title": "Chocolate Butter Cookies",
+   "vendor": "Bombay Sweet Shop",
+   "tags": [
+    "chocolate",
+    "cookies",
+    "Oh Bijli Market",
+    "snacks",
+    "sweet treats"
+   ],
+   "category": "Drinks & treats",
+   "variantId": 54227355205915,
+   "price": "8.99",
+   "available": true,
+   "descriptionHtml": "<p>Equal parts of chocolate, butter and indulgence.</p>\n<p>Our chocolate butter cookies with rich cocoa, dark chocolate chips and sea-salt are the perfect after-meal treat!</p>",
+   "images": [
+    {
+     "src": "/p/chocolate-butter-cookies-0.webp",
+     "alt": "Chocolate Butter Cookies",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/BSS-2026-DIWALI-CHOCOLATEBUTTERCOOKIES-LARGE-HERO-1.1.jpg?v=1791911455"
+    },
+    {
+     "src": "/p/chocolate-butter-cookies-1.webp",
+     "alt": "Chocolate Butter Cookies",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/BSS-2026-DIWALI-CHOCOLATEBUTTERCOOKIES-LARGE-PACKOF3-HERO-1.1.jpg?v=1791911455"
+    },
+    {
+     "src": "/p/chocolate-butter-cookies-2.webp",
+     "alt": "Chocolate Butter Cookies",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/ChocolateButterCookies140gA.jpg?v=1791911455"
+    },
+    {
+     "src": "/p/chocolate-butter-cookies-3.webp",
+     "alt": "Chocolate Butter Cookies",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/ChocolateButterCookies-Anatomy.jpg?v=1791911455"
+    },
+    {
+     "src": "/p/chocolate-butter-cookies-4.webp",
+     "alt": "Chocolate Butter Cookies",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/Chocolatebuttercookiespackaging-29_1.jpg?v=1791911456"
+    },
+    {
+     "src": "/p/chocolate-butter-cookies-5.webp",
+     "alt": "Chocolate Butter Cookies",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/ChoclateButterCookies140g_759c3f9e-42ff-4bb3-af7b-1f14f7331b33.jpg?v=1791911455"
+    }
+   ],
+   "cutout": "/cut/chocolate-butter-cookies.webp",
+   "color": "#FF7A1A",
+   "createdAt": "2026-10-13T22:40:53+05:30"
+  },
+  {
+   "handle": "chilli-cheese-bhujia-90g",
+   "title": "Chilli Cheese Bhujia (90g)",
+   "vendor": "Bombay Sweet Shop",
+   "tags": [
+    "bhujia",
+    "Indian pantry",
+    "namkeen",
+    "Oh Bijli Market",
+    "snacks"
+   ],
+   "category": "Snacks",
+   "variantId": 54227355107611,
+   "price": "5.99",
+   "available": true,
+   "descriptionHtml": "<p>Besan Bhujia tossed in the timeless combination of chilli &amp; cheese!</p>\n<p>Net Weight - 90gms/pack</p>",
+   "images": [
+    {
+     "src": "/p/chilli-cheese-bhujia-90g-0.webp",
+     "alt": "Chilli Cheese Bhujia (90g)",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/CHILLICHEESEBHUJIA-HERO-1.1DIWALI2026.jpg?v=1791911453"
+    },
+    {
+     "src": "/p/chilli-cheese-bhujia-90g-1.webp",
+     "alt": "Chilli Cheese Bhujia (90g)",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/DIWALIA_ANATOMY_ChilliCheeseBhujia_A.jpg?v=1791911453"
+    },
+    {
+     "src": "/p/chilli-cheese-bhujia-90g-2.webp",
+     "alt": "Chilli Cheese Bhujia (90g)",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/32_05d29501-149c-496a-93f2-4cc37b0a32e2.jpg?v=1791911453"
+    },
+    {
+     "src": "/p/chilli-cheese-bhujia-90g-3.webp",
+     "alt": "Chilli Cheese Bhujia (90g)",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/RAKHI_BOPCREATIVESFORWEB_CHILLICHEESEBHUJIA_56cc1f49-bcec-46a0-9d9f-e6a338888bd1.jpg?v=1791911453"
+    }
+   ],
+   "cutout": "/cut/chilli-cheese-bhujia-90g.webp",
+   "color": "#6E0F2B",
+   "createdAt": "2026-10-13T22:40:50+05:30"
+  },
+  {
+   "handle": "kantha-bomb-indian-hot-sauce",
+   "title": "Kantha Bomb Indian Hot Sauce",
+   "vendor": "Naagin Sauce",
+   "tags": [
+    "condiment",
+    "hot sauce",
+    "Indian pantry",
+    "Oh Bijli Market",
+    "spicy"
+   ],
+   "category": "Pantry",
+   "variantId": 54225083891995,
+   "price": "9.99",
+   "available": true,
+   "descriptionHtml": "<p>The Kantha Bomb is far from generic and features the tastiest chilli you've probably never tried - the Kanthari - as premium as green chillies.</p>\n<p>Net Weight - 230gms/bottle</p>\n<p>Proudly Made in India\u00a0</p>",
+   "images": [
+    {
+     "src": "/p/kantha-bomb-indian-hot-sauce-0.webp",
+     "alt": "Kantha Bomb Indian Hot Sauce",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/Screenshot2026-10-13at9.05.08PM.png?v=1791905794"
+    },
+    {
+     "src": "/p/kantha-bomb-indian-hot-sauce-1.webp",
+     "alt": "Kantha Bomb Indian Hot Sauce",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/Screenshot2026-10-13at9.05.14PM.png?v=1791905794"
+    },
+    {
+     "src": "/p/kantha-bomb-indian-hot-sauce-2.webp",
+     "alt": "Kantha Bomb Indian Hot Sauce",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/Screenshot2026-10-13at9.05.23PM.png?v=1791905794"
+    },
+    {
+     "src": "/p/kantha-bomb-indian-hot-sauce-3.webp",
+     "alt": "Kantha Bomb Indian Hot Sauce",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/Screenshot2026-10-13at9.05.31PM.png?v=1791905794"
+    },
+    {
+     "src": "/p/kantha-bomb-indian-hot-sauce-4.webp",
+     "alt": "Kantha Bomb Indian Hot Sauce",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/Screenshot2026-10-13at9.05.40PM.png?v=1791905794"
+    },
+    {
+     "src": "/p/kantha-bomb-indian-hot-sauce-5.webp",
+     "alt": "Kantha Bomb Indian Hot Sauce",
+     "shopifySrc": "https://cdn.shopify.com/s/files/1/1058/7507/9451/files/Screenshot2026-10-13at9.05.48PM.png?v=1791905794"
+    }
+   ],
+   "cutout": "/cut/kantha-bomb-indian-hot-sauce.webp",
+   "color": "#8FD3FF",
+   "createdAt": "2026-10-13T20:50:30+05:30"
+  }
+ ]
+}

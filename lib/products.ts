@@ -1,0 +1,10 @@
+import data from "@/data/products.json";
+import type { Category } from "./site";
+export type Product = { handle: string; title: string; vendor: string; tags: string[]; category: Category; variantId: number; price: string; available: boolean; descriptionHtml: string; images: { src: string; alt: string }[]; cutout: string; color: string };
+export const PRODUCTS = data.products as Product[];
+export const byHandle = (h: string) => PRODUCTS.find((p) => p.handle === h);
+export const shortTitle = (t: string) => t.split("|")[0].replace(/\(.*?\)/g, "").trim();
+export const oneLine = (p: Product) => { const txt = p.descriptionHtml.replace(/<[^>]+>/g, " ").replace(/&amp;/g, "&").replace(/\s+/g, " ").trim(); const s = txt.split(/(?<=[.!])\s/)[0]; return s.length > 110 ? s.slice(0, 107).trimEnd() + "…" : s; };
+export const money = (n: number | string) => `$${Number(n).toFixed(2)}`;
+export const permalink = (lines: { variantId: number; qty: number }[]) => `https://ohbijli.myshopify.com/cart/${lines.map((l) => `${l.variantId}:${l.qty}`).join(",")}`;
+export const inkOn = (hex: string) => { const n = parseInt(hex.slice(1), 16); const [r, g, b] = [n >> 16, (n >> 8) & 255, n & 255]; return 0.299 * r + 0.587 * g + 0.114 * b > 150 ? "#1A0B12" : "#fff"; };
