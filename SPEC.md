@@ -6,7 +6,7 @@
 
 ## Look
 - Maximalist pop: hot pink #FF2E8A, marigold #FFC21A, chilli #E3261B, parrot #2DB84B, electric blue #1F4BFF, maroon #6E0F2B, cream #FFF4DD, ink #1A0B12. Every section is a full-bleed colour band; every product owns a colour.
-- Type: Anton (poster display, uppercase) + Fraunces (soft/wonky italic serif for accents and body). 2 families.
+- Type (v3): Syne 700–800 display + Hanken Grotesk body; accents by weight and gold, no serif or italics.
 - Surfaces: 3px ink borders, hard offset shadows, rotating sticker badges, SVG truck-art/block-print dividers, sunburst hero.
 - Signature: pink hero with the shelf basket + spinning stickers, then the auto-scrolling pill category bar (delli-style) and two tilted Ghia-style marquee bands.
 

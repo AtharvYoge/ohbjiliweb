@@ -22,9 +22,9 @@ const DISCOVER = [
   { t: "Start brewing", d: "Filter coffee decoction, in a sachet.", href: "/edits/the-filter-coffee-hour", c: "var(--aubergine)", ink: "var(--ivory)", h: "easy-filter-coffee-80-20-20ml-x-35-packs-single-serve-sachet" },
 ];
 const UGC = [
-  { f: "I put my parents on", q: "Dad has been putting Kantha Bomb on his upma. I've created a monster.", c: "#F3E3C3" },
-  { f: "Brought it to the potluck", q: "Murukku bowl was empty before the biryani landed. Aunties asked for the link.", c: "#E9D3DC" },
-  { f: "Explain it to my non-desi friend", q: "Gunpowder podi is basically everything-bagel seasoning for rice. She gets it now.", c: "#D3E5DC" },
+  { f: "I put my parents on", q: "Dad has been putting Kantha Bomb on his upma. I've created a monster.", c: "#F6A91E" },
+  { f: "Brought it to the potluck", q: "Murukku bowl was empty before the biryani landed. Aunties asked for the link.", c: "#D6246E" },
+  { f: "Explain it to my non-desi friend", q: "Gunpowder podi is basically everything-bagel seasoning for rice. She gets it now.", c: "#0E8A5F" },
 ];
 const EVERY = ["the-original", "guntur-crisp", "kai-murukku-chakli", "peri-peri-potato-salli-90g", "easy-filter-coffee-80-20-20ml-x-35-packs-single-serve-sachet", "choco-butterscotch-barks-200g", "ghee-mysore-pak-soft", "gunpowder-idli-molaga-podi-150g-x-2-packs"];
 const LABEL: Record<string, string> = { "the-original": "Hot sauce", "guntur-crisp": "Chilli crisp", "kai-murukku-chakli": "Murukku", "peri-peri-potato-salli-90g": "Namkeen", "easy-filter-coffee-80-20-20ml-x-35-packs-single-serve-sachet": "Filter coffee", "choco-butterscotch-barks-200g": "Chocolate", "ghee-mysore-pak-soft": "Mithai", "gunpowder-idli-molaga-podi-150g-x-2-packs": "Podi" };
@@ -94,10 +94,10 @@ export default function Home() {
       <Values />
 
       {/* Something for everyone */}
-      <section aria-labelledby="sfe" className="bg-[var(--cream)] px-5 py-20 md:px-8 md:py-24">
+      <section aria-labelledby="sfe" className="bg-[var(--pink)] text-[var(--ivory)] px-5 py-20 md:px-8 md:py-24">
         <div className="mx-auto max-w-[1300px] text-center">
-          <p className="eyebrow justify-center text-[var(--peacock)]">The whole pantry</p>
-          <h2 id="sfe" className="h2" data-rv>Something for <em className="text-[var(--chilli)]">everyone.</em></h2>
+          <p className="eyebrow justify-center text-[var(--gold-2)]">The whole pantry</p>
+          <h2 id="sfe" className="h2" data-rv>Something for <em className="text-[var(--marigold)]">everyone.</em></h2>
           <ul className="cut-row mt-10 justify-start lg:justify-center">
             {EVERY.map((h) => { const p = byHandle(h)!; return (
               <li key={h} className="cut"><Link href={`/products/${h}`}>
@@ -176,7 +176,7 @@ export default function Home() {
           </div>
           <div className="mt-10 grid gap-5 md:grid-cols-3">
             {UGC.map((u) => (
-              <figure key={u.f} className="ugc" style={{ background: u.c }} data-rv>
+              <figure key={u.f} className="ugc" style={{ background: u.c, color: u.c === "#F6A91E" ? "var(--ink)" : "var(--ivory)" }} data-rv>
                 <span className="demo-tag">Sample</span>
                 <figcaption className="mt-4 font-display text-2xl italic leading-tight">&ldquo;{u.f}&rdquo;</figcaption>
                 <blockquote className="mt-3 text-[1.02rem]">{u.q}</blockquote>

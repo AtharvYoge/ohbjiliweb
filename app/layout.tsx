@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Bodoni_Moda, Hanken_Grotesk } from "next/font/google";
+import { Syne, Hanken_Grotesk } from "next/font/google";
 import "./globals.css";
 import { CartProvider } from "@/components/cart";
 import Header from "@/components/Header";
@@ -8,7 +8,7 @@ import CartDrawer from "@/components/CartDrawer";
 import Reveal from "@/components/Reveal";
 import { SITE_NAME } from "@/lib/site";
 
-const display = Bodoni_Moda({ subsets: ["latin"], variable: "--f-display", display: "swap", style: ["normal", "italic"], axes: ["opsz"] });
+const display = Syne({ subsets: ["latin"], variable: "--f-display", display: "swap" });
 const sans = Hanken_Grotesk({ subsets: ["latin"], variable: "--f-sans", display: "swap" });
 
 export const metadata: Metadata = {
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   description: "The India your parents' pantry hasn't met yet. Hot sauces, snacks, mithai and filter coffee from new-wave Indian makers.",
   robots: { index: false, follow: false },
 };
-export const viewport: Viewport = { themeColor: "#3D1A4A" };
+export const viewport: Viewport = { themeColor: "#3A0F4F" };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (

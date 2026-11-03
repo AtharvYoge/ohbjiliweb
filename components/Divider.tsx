@@ -1,5 +1,5 @@
 // Original zari / textile border, drawn in SVG (scalloped arches, lozenges and dots).
-export default function Divider({ a = "#C9A24A", b = "#0B5E63", c = "#3D1A4A" }: { a?: string; b?: string; c?: string }) {
+export default function Divider({ a = "#D4A73C", b = "#00697A", c = "#3A0F4F" }: { a?: string; b?: string; c?: string }) {
   const id = `z${a.slice(1)}${b.slice(1)}${c.slice(1)}`;
   return (
     <svg className="zari" preserveAspectRatio="none" viewBox="0 0 480 22" aria-hidden>

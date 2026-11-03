@@ -7,8 +7,8 @@ const ROWS: [string, boolean, boolean][] = [
   ["Organised by region and craving, not just aisle", true, false],
   ["The classics you grew up with", false, true],
 ];
-const Yes = () => <svg viewBox="0 0 24 24" className="mx-auto h-6 w-6" role="img" aria-label="Yes"><path d="M12 2 22 12 12 22 2 12Z" fill="#0B5E63"/><path d="m8 12 3 3 5-6" fill="none" stroke="#E8CF8A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>;
-const No = () => <svg viewBox="0 0 24 24" className="mx-auto h-6 w-6" role="img" aria-label="No"><path d="M7 12h10" stroke="#9E2F5C" strokeWidth="1.6" strokeLinecap="round"/></svg>;
+const Yes = () => <svg viewBox="0 0 24 24" className="mx-auto h-6 w-6" role="img" aria-label="Yes"><path d="M12 2 22 12 12 22 2 12Z" fill="#00697A"/><path d="m8 12 3 3 5-6" fill="none" stroke="#F5D98A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>;
+const No = () => <svg viewBox="0 0 24 24" className="mx-auto h-6 w-6" role="img" aria-label="No"><path d="M7 12h10" stroke="#D6246E" strokeWidth="1.6" strokeLinecap="round"/></svg>;
 export default function Compare({ name }: { name: string }) {
   return (
     <section aria-labelledby="cmp" className="relative bg-[var(--aubergine)] px-5 py-20 text-[var(--ivory)] md:py-28">
