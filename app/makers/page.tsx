@@ -14,7 +14,7 @@ export default function Makers() {
         <div style={{ background: m.color, color: m.ink }}>
           <div className="mx-auto grid max-w-[1400px] items-center gap-8 px-4 py-14 md:grid-cols-[1fr_1.2fr] md:px-8 md:py-20">
             <div>
-              <div className="inline-block rounded-2xl border-[3px] border-[var(--ink)] bg-white p-4"><Image src={m.logo} alt={`${m.name} logo`} width={240} height={120} className="h-16 w-auto object-contain md:h-20" /></div>
+              <div className="inline-block rounded-2xl border border-[var(--line)] bg-white p-4"><Image src={m.logo} alt={`${m.name} logo`} width={240} height={120} className="h-16 w-auto object-contain md:h-20" /></div>
               <h2 id={`m-${m.slug}`} className="h2 mt-5" data-rv>{m.name}</h2>
               <blockquote className="mt-4 font-serif text-2xl italic md:text-3xl">“{m.quote}”</blockquote>
               <p className="mt-1 text-sm font-bold uppercase tracking-wider opacity-85">— {m.source}</p>

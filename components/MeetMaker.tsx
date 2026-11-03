@@ -18,7 +18,7 @@ export default function MeetMaker() {
         </div>
         <div className="mt-10 grid items-center gap-8 md:grid-cols-2" role="tabpanel">
           <div>
-            <div className="inline-block rounded-2xl border-[3px] border-[var(--ink)] bg-white p-4"><Image src={m.logo} alt={`${m.name} logo`} width={220} height={110} className="h-16 w-auto object-contain md:h-20" /></div>
+            <div className="inline-block rounded-2xl border border-[var(--line)] bg-white p-4"><Image src={m.logo} alt={`${m.name} logo`} width={220} height={110} className="h-16 w-auto object-contain md:h-20" /></div>
             <blockquote className="mt-6 font-serif text-3xl italic leading-tight md:text-5xl">“{m.quote}”</blockquote>
             <p className="mt-2 text-sm font-bold uppercase tracking-wider opacity-85">— {m.name}, {m.source}</p>
             <p className="mt-5 max-w-[50ch] text-lg">{m.blurb}</p>
@@ -26,7 +26,7 @@ export default function MeetMaker() {
           </div>
           <ul className="grid grid-cols-2 gap-3 sm:grid-cols-3">
             {ps.map((p) => (
-              <li key={p.handle}><Link href={`/products/${p.handle}`} className="block rounded-2xl border-[3px] border-[var(--ink)] bg-[var(--cream)] p-2 text-[var(--ink)] transition-transform hover:-rotate-2 hover:scale-105">
+              <li key={p.handle}><Link href={`/products/${p.handle}`} className="block rounded-2xl border border-[var(--line)] bg-[var(--cream)] p-2 text-[var(--ink)] transition-transform hover:-translate-y-1">
                 <span className="relative block aspect-square"><Image src={p.cutout} alt={p.title} fill sizes="160px" className="object-contain" /></span>
                 <span className="block pt-1 text-center text-sm font-bold leading-tight">{shortTitle(p.title)}</span>
               </Link></li>

@@ -30,14 +30,14 @@ export default async function EditPage({ params }: { params: Promise<{ slug: str
             <div className="in mt-6 flex flex-wrap items-center gap-4" style={{ ["--d" as string]: ".4s" }}><AddAll handles={e.handles} /><span className="font-bold">{ps.length} items · {money(total)}</span></div>
           </div>
           <div className="in flex items-end justify-center" style={{ ["--d" as string]: ".3s" }}>
-            {ps.slice(0, 4).map((p, j) => <span key={p.handle} className="relative -mx-3 block h-44 w-1/4 md:h-72" style={{ transform: `rotate(${(j - 1.5) * 5}deg)` }}><Image src={p.cutout} alt="" fill sizes="200px" className="object-contain object-bottom drop-shadow-[6px_8px_0_rgba(0,0,0,.25)]" /></span>)}
+            {ps.slice(0, 4).map((p, j) => <span key={p.handle} className="relative -mx-3 block h-44 w-1/4 md:h-72" style={{ transform: `rotate(${(j - 1.5) * 5}deg)` }}><Image src={p.cutout} alt="" fill sizes="200px" className="object-contain object-bottom drop-shadow-[0_16px_16px_rgba(20,8,24,.32)]" /></span>)}
           </div>
         </div>
       </section>
       <Divider />
       <section className="mx-auto grid max-w-[1400px] gap-10 px-4 py-14 md:grid-cols-2 md:px-8">
         <div className="space-y-4 font-serif text-2xl leading-snug">{e.story.map((s) => <p key={s}>{s}</p>)}</div>
-        <ol className="space-y-3">{e.steps.map((s, j) => <li key={s} className="flex items-center gap-4 rounded-[22px] border-[3px] border-[var(--ink)] bg-white p-4"><span className="grid h-12 w-12 flex-none place-items-center rounded-full font-display text-2xl" style={{ background: e.color, color: e.ink }}>{j + 1}</span><span className="text-lg">{s}</span></li>)}</ol>
+        <ol className="space-y-3">{e.steps.map((s, j) => <li key={s} className="flex items-center gap-4 rounded-[22px] border border-[var(--line)] bg-white p-4"><span className="grid h-12 w-12 flex-none place-items-center rounded-full font-display text-2xl" style={{ background: e.color, color: e.ink }}>{j + 1}</span><span className="text-lg">{s}</span></li>)}</ol>
       </section>
       <section className="mx-auto max-w-[1400px] px-4 pb-16 md:px-8" aria-labelledby="inedit">
         <h2 id="inedit" className="h2">In this edit.</h2>

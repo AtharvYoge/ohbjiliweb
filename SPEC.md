@@ -23,3 +23,12 @@
 
 ## Content rules
 No invented press, awards, stats, ratings, certifications, founder facts or product facts. Product facts only from store descriptions; brand lines quoted and attributed. UGC labelled sample.
+
+---
+## v2 — Luxe jewel-box identity (supersedes v1 visual direction)
+- **Direction:** Indian luxe maximalism. Aubergine / peacock / saffron / vermilion / emerald with zari-gold detailing on an ivory base; Bodoni Moda (didone) + Hanken Grotesk.
+- **Original ornaments (SVG/CSS):** zari border (`Divider`), palace-ceiling jaal pattern (`.jaal`), mihrab/jharokha arches on cards, doors, gallery, tiles; gold medallion seals; diamond ledger marks.
+- **Signature motion:** hero jharokha unveils the pantry (clip-path) inside a slowly turning conic zari-gold ring, with a word-by-word blur-rise headline.
+- **Quiet motion:** zari marquee, pill-bar drift, scroll reveals, sticky stacked edit cards, gold ring on primary buttons. All off under prefers-reduced-motion.
+- **Reworked modules:** pill bar → jewel tokens; menu → aubergine jewel drawer (circle reveal, numbered I/II/III); build box → 6-compartment Bijli dabba with mobile sticky bar; values → gold seals; comparison → "The ledger"; item cards → arched vitrines; discovery → arched doors.
+- **New:** full-width saffron "The New Chai Table" feature band (not reveal-gated); "Mix & Match Your Favourites" dish × product picker (tab reel + swipeable card, line-art SVG dishes, one-line serving tip, Add to bag adds all products in the pairing). Serving ideas only; all products are real store items.

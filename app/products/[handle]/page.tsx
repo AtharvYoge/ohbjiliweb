@@ -24,7 +24,7 @@ export default async function ProductPage({ params }: { params: Promise<{ handle
       <section className="mx-auto grid max-w-[1400px] gap-10 px-4 py-8 md:grid-cols-2 md:px-8 md:py-12">
         <div className="in min-w-0"><Gallery imgs={p.images} color={p.color} cutout={p.cutout} title={p.title} /></div>
         <div className="in min-w-0" style={{ ["--d" as string]: ".15s" }}>
-          <Link href={`/makers#${maker?.slug}`} className="inline-block rounded-full border-2 border-[var(--ink)] px-3 py-1 text-sm font-black uppercase tracking-wider" style={{ background: maker?.color, color: maker?.ink }}>{p.vendor}</Link>
+          <Link href={`/makers#${maker?.slug}`} className="eyebrow !mb-0 text-[var(--peacock)]">{p.vendor}</Link>
           <h1 className="mt-4 font-display text-[clamp(2.6rem,6vw,5rem)] uppercase leading-[.92]">{p.title}</h1>
           <p className="mt-3 font-display text-4xl">{money(p.price)}</p>
           <div className="mt-6"><AddToCart handle={p.handle} label={money(p.price)} /></div>
@@ -38,7 +38,7 @@ export default async function ProductPage({ params }: { params: Promise<{ handle
         <div className="mx-auto max-w-[1400px]">
           <p className="eyebrow">Ideas, not rules</p>
           <h2 id="hte" className="h2">How to enjoy it.</h2>
-          <ol className="mt-8 grid gap-4 md:grid-cols-3">{HOW_TO[p.category].map((h, i) => <li key={h} className="rounded-[24px] border-[3px] border-[var(--ink)] bg-[var(--cream)] p-6"><span className="font-display text-6xl text-[var(--pink)]">0{i + 1}</span><p className="mt-2 font-serif text-xl">{h}</p></li>)}</ol>
+          <ol className="mt-8 grid gap-4 md:grid-cols-3">{HOW_TO[p.category].map((h, i) => <li key={h} className="rounded-[24px] border border-[var(--line)] bg-[var(--cream)] p-6"><span className="font-display text-6xl text-[var(--pink)]">0{i + 1}</span><p className="mt-2 font-serif text-xl">{h}</p></li>)}</ol>
           {edits.length > 0 && <p className="mt-8 text-lg font-bold">Featured in: {edits.map((e, i) => <span key={e.slug}>{i ? " · " : ""}<Link className="underline" href={`/edits/${e.slug}`}>{e.title}</Link></span>)}</p>}
         </div>
       </section>

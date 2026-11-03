@@ -1,18 +1,27 @@
-// Original truck-art / block-print style border, drawn in SVG.
-export default function Divider({ a = "#FF2E8A", b = "#FFC21A", c = "#1A0B12" }: { a?: string; b?: string; c?: string }) {
-  const id = `d${a.slice(1)}${b.slice(1)}`;
+// Original zari / textile border, drawn in SVG (scalloped arches, lozenges and dots).
+export default function Divider({ a = "#C9A24A", b = "#0B5E63", c = "#3D1A4A" }: { a?: string; b?: string; c?: string }) {
+  const id = `z${a.slice(1)}${b.slice(1)}${c.slice(1)}`;
   return (
-    <svg className="block h-7 w-full md:h-9" preserveAspectRatio="none" viewBox="0 0 400 36" aria-hidden>
+    <svg className="zari" preserveAspectRatio="none" viewBox="0 0 480 22" aria-hidden>
       <defs>
-        <pattern id={id} width="40" height="36" patternUnits="userSpaceOnUse">
-          <rect width="40" height="36" fill={c} />
-          <path d="M0 18 L10 4 L20 18 L10 32Z" fill={a} />
-          <path d="M20 18 L30 4 L40 18 L30 32Z" fill={b} />
-          <circle cx="10" cy="18" r="3" fill={b} /><circle cx="30" cy="18" r="3" fill={a} />
-          <circle cx="20" cy="4" r="2" fill="#fff" /><circle cx="20" cy="32" r="2" fill="#fff" />
+        <pattern id={id} width="48" height="22" patternUnits="userSpaceOnUse">
+          <rect width="48" height="22" fill={c} />
+          <path d="M0 22 C0 10 12 6 24 6 C36 6 48 10 48 22" fill="none" stroke={a} strokeWidth="1.2" />
+          <path d="M24 9 28 14 24 19 20 14Z" fill={a} />
+          <circle cx="0" cy="14" r="2" fill={b} /><circle cx="48" cy="14" r="2" fill={b} />
+          <circle cx="12" cy="3" r="1" fill={a} /><circle cx="36" cy="3" r="1" fill={a} />
         </pattern>
       </defs>
-      <rect width="400" height="36" fill={`url(#${id})`} />
+      <rect width="480" height="1" fill={a} />
+      <rect y="1" width="480" height="20" fill={`url(#${id})`} />
+      <rect y="21" width="480" height="1" fill={a} />
+    </svg>
+  );
+}
+export function Ornament({ className = "" }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 120 24" className={className} aria-hidden fill="none" stroke="currentColor" strokeWidth="1">
+      <path d="M0 12h44M76 12h44" /><path d="M60 2 70 12 60 22 50 12Z" /><path d="M60 7 65 12 60 17 55 12Z" fill="currentColor" /><circle cx="46" cy="12" r="2" /><circle cx="74" cy="12" r="2" />
     </svg>
   );
 }

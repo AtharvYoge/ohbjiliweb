@@ -22,14 +22,14 @@ export default function Discover() {
     <Marquee bg="var(--ink)" color="var(--marigold)" items={MAP.map((m) => m.r)} />
     <section className="mx-auto max-w-[1200px] space-y-6 px-4 py-14 md:px-8 md:py-20">
       {MAP.map((m, i) => { const p = byHandle(m.h)!; return (
-        <article key={m.t} className="grid items-center gap-6 overflow-hidden rounded-[30px] border-[3px] border-[var(--ink)] p-6 shadow-[8px_8px_0_var(--ink)] md:grid-cols-[1.4fr_1fr] md:p-10" style={{ background: m.c, color: m.ink }} data-rv>
+        <article key={m.t} className="grid items-center gap-6 overflow-hidden rounded-[30px] border border-[var(--line)] p-6 shadow-[0_30px_60px_-34px_rgba(27,20,32,.55)] md:grid-cols-[1.4fr_1fr] md:p-10" style={{ background: m.c, color: m.ink }} data-rv>
           <div className={i % 2 ? "md:order-2" : ""}>
             <p className="eyebrow">📍 {m.r}</p>
             <h2 className="font-display text-5xl uppercase leading-[.9] md:text-7xl">{m.t}</h2>
             <p className="mt-3 max-w-[46ch] font-serif text-xl">{m.d}</p>
             <Link href={`/products/${p.handle}`} className="btn mt-5">Try {shortTitle(p.title)} →</Link>
           </div>
-          <div className="relative h-56 md:h-72"><Image src={p.cutout} alt={p.title} fill sizes="(max-width:768px) 80vw, 30vw" className="object-contain drop-shadow-[8px_10px_0_rgba(0,0,0,.25)]" /></div>
+          <div className="relative h-56 md:h-72"><Image src={p.cutout} alt={p.title} fill sizes="(max-width:768px) 80vw, 30vw" className="object-contain drop-shadow-[0_16px_16px_rgba(20,8,24,.32)]" /></div>
         </article>); })}
     </section>
     <Values />

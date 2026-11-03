@@ -13,7 +13,7 @@ export default function CartDrawer() {
       <div aria-live="polite" className={`toast ${toast && !open ? "show" : ""}`}>{toast}</div>
       <div className={`scrim ${open ? "on" : ""}`} onClick={() => setOpen(false)} aria-hidden />
       <aside className={`drawer ${open ? "on" : ""}`} role="dialog" aria-modal="true" aria-label="Your bag" aria-hidden={!open} inert={!open}>
-        <header className="flex items-center justify-between bg-[var(--pink)] px-5 py-4 text-white">
+        <header className="flex items-center justify-between bg-[var(--aubergine)] px-5 py-4 text-[var(--ivory)]">
           <h2 className="font-display text-3xl uppercase">Your bag ({count})</h2>
           <button className="iconbtn" onClick={() => setOpen(false)} aria-label="Close bag">✕</button>
         </header>
@@ -27,7 +27,7 @@ export default function CartDrawer() {
           ) : (
             <ul className="space-y-3">
               {lines.map((l) => { const p = PRODUCTS.find((x) => x.handle === l.handle)!; return (
-                <li key={l.handle} className="flex gap-3 rounded-2xl border-2 border-[var(--ink)] bg-white p-2">
+                <li key={l.handle} className="flex gap-3 rounded-2xl border border-[var(--line)] bg-white p-2">
                   <div className="relative h-20 w-20 shrink-0 overflow-hidden rounded-xl" style={{ background: p.color }}>
                     <Image src={p.cutout} alt="" fill sizes="80px" className="object-contain p-1.5" />
                   </div>
@@ -48,7 +48,7 @@ export default function CartDrawer() {
           )}
         </div>
         {lines.length > 0 && (
-          <footer className="border-t-2 border-[var(--ink)] bg-[var(--marigold)] px-5 py-4">
+          <footer className="border-t border-[var(--gold)] bg-[var(--cream)] px-5 py-4">
             <div className="flex justify-between text-lg font-bold"><span>Subtotal</span><span>{money(subtotal)}</span></div>
             <p className="mb-3 text-sm opacity-80">Shipping and taxes are calculated at Shopify checkout.</p>
             <a href={checkoutUrl} className="btn w-full justify-center !bg-[var(--ink)] !text-white">Checkout →</a>

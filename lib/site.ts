@@ -4,8 +4,8 @@ export const SITE_NAME = `Oh ${BRAND_WORD} Market`;
 export const SHOP_DOMAIN = "ohbijli.myshopify.com";
 
 export const POP = {
-  pink: "#FF2E8A", marigold: "#FFC21A", chilli: "#E3261B", parrot: "#2DB84B",
-  blue: "#1F4BFF", maroon: "#6E0F2B", cream: "#FFF4DD", ink: "#1A0B12", orange: "#FF7A1A",
+  pink: "#9E2F5C", marigold: "#E3A33A", chilli: "#B8402A", parrot: "#1F6B4A",
+  blue: "#0B5E63", maroon: "#3D1A4A", cream: "#F6EFE2", ink: "#1B1420", orange: "#C98A2B",
 };
 
 export const CATEGORIES = ["Snacks", "Pantry", "Drinks & treats"] as const;
