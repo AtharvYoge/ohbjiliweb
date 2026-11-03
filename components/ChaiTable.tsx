@@ -13,7 +13,8 @@ export default function ChaiTable() {
   return (
     <section id="chai-table" aria-labelledby="chai-h" className="relative overflow-hidden text-[var(--ink)]" style={{ background: "radial-gradient(90% 70% at 80% 0%, #FFC94A, #F6A91E 50%, #E8820F)" }}>
       <Divider a="#3A0F4F" b="#D6246E" c="#F6A91E" />
-      <div className="jaal" aria-hidden style={{ opacity: 0.18, filter: "invert(1) sepia(1) saturate(4) hue-rotate(250deg)" }} />
+      <picture className="jp"><source media="(min-width:768px)" srcSet="/bg/miniature-border-saffron-1280.webp" /><img src="/bg/miniature-border-saffron-720.webp" alt="" className="h-full w-full object-cover opacity-50 mix-blend-multiply" loading="lazy" decoding="async" /></picture>
+      <div className="jp" aria-hidden style={{ backgroundImage: "var(--pt-butti-aub)", backgroundSize: "60px 60px", opacity: .08 }} />
       <div className="relative mx-auto max-w-[1300px] px-5 py-16 md:px-8 md:py-24">
         <div className="grid items-center gap-8 md:grid-cols-[1.25fr_1fr]">
           <div>

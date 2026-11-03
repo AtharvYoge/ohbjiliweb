@@ -6,6 +6,8 @@ import Divider, { Ornament } from "@/components/Divider";
 import ChaiTable from "@/components/ChaiTable";
 import MixMatch from "@/components/MixMatch";
 import Values from "@/components/Values";
+import Discovery from "@/components/Discovery";
+import Regions from "@/components/Regions";
 import Compare from "@/components/Compare";
 import BuildBox from "@/components/BuildBox";
 import Newsletter from "@/components/Newsletter";
@@ -31,13 +33,16 @@ const LABEL: Record<string, string> = { "the-original": "Hot sauce", "guntur-cri
 
 export default function Home() {
   const [, grilled, ...rest] = EDITS;
-  const words = (t: string, d0: number, g = false) => t.split(" ").map((w, i) => <span key={i} className={`word ${g ? "gold-text" : ""}`} style={{ ["--d" as string]: `${d0 + i * 0.08}s` }}>{w}&nbsp;</span>);
+  const words = (t: string, d0: number, g = false) => t.split(" ").map((w, i) => <span key={i} className={`word ${g ? "gold-text shimmer" : ""}`} style={{ ["--d" as string]: `${d0 + i * 0.08}s` }}>{w}&nbsp;</span>);
   return (
     <>
       {/* HERO: the signature. An arched jharokha unveils the pantry inside a turning zari-gold ring. */}
       <section className="hero" aria-labelledby="h1">
-        <div className="sun" aria-hidden />
-        <div className="jaal" aria-hidden />
+        <div className="jp jp-img hero-bg" aria-hidden />
+        <div className="jp hero-veil" aria-hidden />
+        <div className="sun" aria-hidden style={{ opacity: .45 }} />
+        <svg className="zdraw top-3" viewBox="0 0 1400 24" preserveAspectRatio="none" aria-hidden><path d="M0 12 Q 35 0 70 12 T 140 12 T 210 12 T 280 12 T 350 12 T 420 12 T 490 12 T 560 12 T 630 12 T 700 12 T 770 12 T 840 12 T 910 12 T 980 12 T 1050 12 T 1120 12 T 1190 12 T 1260 12 T 1330 12 T 1400 12" fill="none" stroke="#E8CF8A" strokeWidth="1.5" vectorEffect="non-scaling-stroke" /></svg>
+        <div className="doors" aria-hidden><span className="door" /><span className="door r" /></div>
         <div className="relative mx-auto grid max-w-[1300px] items-center gap-12 px-5 pb-16 pt-10 md:grid-cols-[1.15fr_1fr] md:px-8 md:pb-20 md:pt-14">
           <div>
             <p className="in eyebrow text-[var(--gold-2)]" style={{ ["--d" as string]: ".05s" }}>A new-wave Indian pantry</p>
@@ -53,6 +58,7 @@ export default function Home() {
             </div>
           </div>
           <div className="relative mx-auto w-full max-w-[460px]">
+            <div className="hero-mehrab" aria-hidden />
             <div className="arch-ring in" style={{ ["--d" as string]: ".2s" }}>
               <div className="arch arch-in hero-art aspect-[4/5]">
                 <Image src="/img/shelf-mobile.webp" alt="A woven basket packed with Naagin hot sauces, VS Mani coffee, Bombay Sweet Shop sweets and Sweet Karam Coffee snacks" fill priority sizes="(max-width:768px) 90vw, 460px" className="object-cover object-[70%_60%]" />
@@ -66,13 +72,16 @@ export default function Home() {
       </section>
 
       <PillBar />
+      <Discovery />
       <Marquee bg="var(--aubergine)" color="var(--gold-2)" items={["Hot sauce with a passport", "Mithai, remixed", "The filter coffee hour", "Murukku for the table", "Four makers", "One bag"]} />
 
       <ChaiTable />
+      <Regions />
 
       {/* DISCOVERY: arched doors */}
-      <section aria-labelledby="disc" className="px-5 py-20 md:px-8 md:py-28">
-        <div className="mx-auto max-w-[1300px]">
+      <section aria-labelledby="disc" className="relative px-5 py-20 md:px-8 md:py-28">
+        <div className="jp" aria-hidden style={{ backgroundImage: "var(--pt-jaal-peacock)", backgroundSize: "80px 80px", opacity: .07 }} />
+        <div className="relative mx-auto max-w-[1300px]">
           <div className="text-center">
             <p className="eyebrow justify-center text-[var(--pink)]">Start with a discovery</p>
             <h2 id="disc" className="h2" data-rv>Pick a door. <em className="text-[var(--peacock)]">Any door.</em></h2>
@@ -94,8 +103,9 @@ export default function Home() {
       <Values />
 
       {/* Something for everyone */}
-      <section aria-labelledby="sfe" className="bg-[var(--pink)] text-[var(--ivory)] px-5 py-20 md:px-8 md:py-24">
-        <div className="mx-auto max-w-[1300px] text-center">
+      <section aria-labelledby="sfe" className="relative bg-[var(--pink)] text-[var(--ivory)] px-5 py-20 md:px-8 md:py-24">
+        <div className="jp" aria-hidden style={{ backgroundImage: "var(--pt-butti-gold)", backgroundSize: "60px 60px", opacity: .16 }} />
+        <div className="relative mx-auto max-w-[1300px] text-center">
           <p className="eyebrow justify-center text-[var(--gold-2)]">The whole pantry</p>
           <h2 id="sfe" className="h2" data-rv>Something for <em className="text-[var(--marigold)]">everyone.</em></h2>
           <ul className="cut-row mt-10 justify-start lg:justify-center">

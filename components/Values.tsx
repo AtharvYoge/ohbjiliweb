@@ -14,8 +14,10 @@ const V = [
 ];
 export default function Values() {
   return (
-    <section aria-label="What we stand for" className="relative bg-[var(--peacock)] py-14 text-[var(--ivory)] md:py-20">
-      <ul className="mx-auto grid max-w-[1200px] grid-cols-2 gap-x-4 gap-y-10 px-5 md:grid-cols-4">
+    <section aria-label="What we stand for" className="relative overflow-hidden bg-[var(--peacock)] py-14 text-[var(--ivory)] md:py-20">
+      <div className="jp" aria-hidden style={{ backgroundImage: "url(/bg/bluepottery-field.webp)", backgroundSize: "360px", opacity: .12, mixBlendMode: "luminosity" }} />
+      <div className="jp" aria-hidden style={{ backgroundImage: "var(--pt-medal-gold)", backgroundSize: "120px 120px", opacity: .1 }} />
+      <ul className="relative mx-auto grid max-w-[1200px] grid-cols-2 gap-x-4 gap-y-10 px-5 md:grid-cols-4">
         {V.map((v) => (
           <li key={v.t} className="text-center">
             <div className="mx-auto grid h-24 w-24 place-items-center rounded-full bg-[radial-gradient(circle,#00697A_62%,transparent_63%),var(--gold-grad)] text-[var(--gold-2)] shadow-[0_0_0_1px_rgba(232,207,138,.7),0_0_0_6px_var(--peacock),0_0_0_7px_rgba(232,207,138,.45)] md:h-28 md:w-28">

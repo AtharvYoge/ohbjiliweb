@@ -2,6 +2,7 @@ export default function PageHead({ k, t, d, bg = "var(--pink)", ink = "#fff" }: 
   return (
     <section className="hero" style={{ background: bg, color: ink }}>
       <div className="sun" aria-hidden />
+      <div className="jp" aria-hidden style={{ backgroundImage: "var(--pt-butti-gold)", backgroundSize: "60px 60px", opacity: .14 }} />
       <div className="relative mx-auto max-w-[1400px] px-4 py-12 md:px-8 md:py-16">
         <p className="in eyebrow">{k}</p>
         <h1 className="in h1 !text-[clamp(2.8rem,9vw,7rem)]" style={{ ["--d" as string]: ".1s" }}>{t}</h1>

@@ -15,3 +15,15 @@ npm run build && npm start -p 3001
 
 ## Credits
 Product photos, cutouts derived from them, and brand logos belong to Naagin Sauce, Bombay Sweet Shop, VS Mani & Co. and Sweet Karam Coffee, used here for a non-public demo. Icons, dividers and patterns are original SVG.
+
+## Pattern inspiration (v4 Jaipuri layer)
+All SVG patterns in `app/globals.css` (butti, jaal, blue-pottery medallion, mehrab arch, peacock-gate fan, cusped border band) are **original drawings**, inspired by (not traced from) these references:
+- Sanganeri / Bagru hand block prints — Anokhi Museum of Hand Printing (https://www.anokhi.com/museum), V&A (https://collections.vam.ac.uk/search/?q=sanganer), Wikimedia Commons "Bagru Print.jpg"
+- Jaipur blue pottery — Wikimedia Commons "Blue Pottery, Jaipur School of Art.jpg"
+- City Palace Pritam Niwas Chowk peacock gate — Wikimedia Commons "Pritam Niwas Chowk (39604635274).jpg"
+- Hawa Mahal, Amer Fort jaali, jharokhas, Sheesh Mahal — Wikimedia Commons (various CC BY-SA photos)
+- Rajasthani miniature painting borders (Kishangarh, Jaipur, Mewar) — The Met (https://www.metmuseum.org/art/collection/search?q=kishangarh), Wikimedia Commons
+No reference images are shipped in this repo.
+
+## AI-generated images
+The following are AI-generated (not photographs of real products or places): the New Chai Table image, the Mix & Match dish images, the Jaipuri background art in `public/bg/` (butti fields, peacock fresco, blue-pottery field, miniature border) and the Regional Highlights art (`public/bg/region-*.webp`: Kerala mural/kasavu, Andhra Kalamkari, Mysore painting styles).

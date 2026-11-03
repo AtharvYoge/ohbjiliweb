@@ -61,7 +61,8 @@ export default function MixMatch() {
   const total = p.items.reduce((a, it) => a + Number(it.price), 0);
   return (
     <section id="mix-match" aria-labelledby="mm" className="relative overflow-hidden bg-[var(--peacock)] py-20 text-[var(--ivory)] md:py-28">
-      <div className="jaal" aria-hidden />
+      <picture className="jp"><source media="(min-width:768px)" srcSet="/bg/peacock-fresco-wide-1280.webp" /><img src="/bg/peacock-fresco-wide-720.webp" alt="" className="h-full w-full object-cover opacity-25 mix-blend-luminosity" loading="lazy" decoding="async" /></picture>
+      <div className="jp" aria-hidden style={{ background: "linear-gradient(180deg,rgba(0,105,122,.55),rgba(0,105,122,.85))" }} />
       <div className="relative mx-auto max-w-[1200px]">
         <div className="px-5 md:px-8">
           <p className="eyebrow text-[var(--gold-2)]">Mix &amp; match your favourites</p>

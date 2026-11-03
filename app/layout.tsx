@@ -20,8 +20,9 @@ export const viewport: Viewport = { themeColor: "#3A0F4F" };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en-US" className={`${display.variable} ${sans.variable}`}>
+    <html suppressHydrationWarning lang="en-US" className={`${display.variable} ${sans.variable}`}>
       <body>
+        <script dangerouslySetInnerHTML={{ __html: "try{if(sessionStorage.getItem('ob-intro'))document.documentElement.classList.add('seen');else sessionStorage.setItem('ob-intro','1')}catch(e){}" }} />
         <a href="#main" className="skip">Skip to content</a>
         <CartProvider>
           <Header />
